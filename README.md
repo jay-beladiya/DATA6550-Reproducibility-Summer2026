@@ -1,4 +1,7 @@
 # DATA6550-Reproducibility-Summer2026
+## Team Members:
+- Jay Beladiya
+- Tirth Laheri
 
 ## Paper being reproduced
 
