@@ -24,3 +24,6 @@ The `data/` folder in the original repository already contains the files needed 
 and *figure* steps directly (`train.csv`, `test.csv`, `time_line.xlsx`, and — via `temp/` — the full
 case series), so this reproduction does not need to pull fresh data from the Korea Public Data Portal or
 KDCA for those steps.
+
+- Korea Public Data Portal: https://www.data.go.kr/data/15106451/fileData.do
+- KDCA (Korea Disease Control and Prevention Agency): https://ncov.kdca.go.kr/en/tcmBoardList.do?brdId=12&brdGubun=125&dataGubun=&ncvContSeq=&contSeq=&board_id=&gubun
