@@ -18,4 +18,9 @@ report >94% classification accuracy and use the trend classification to detect o
 (7 estimated vs. 5 officially reported outbreaks in Korea, March 2020–October 2022). A secondary result
 is a sensitivity analysis varying the outbreak "duration of maintenance" parameter from 7 to 28 days.
 
+## Data availability
 
+The `data/` folder in the original repository already contains the files needed to run the *training*
+and *figure* steps directly (`train.csv`, `test.csv`, `time_line.xlsx`, and — via `temp/` — the full
+case series), so this reproduction does not need to pull fresh data from the Korea Public Data Portal or
+KDCA for those steps.
