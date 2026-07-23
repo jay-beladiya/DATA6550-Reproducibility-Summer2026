@@ -11,3 +11,11 @@ DOI: [10.3389/fpubh.2023.1252357](https://doi.org/10.3389/fpubh.2023.1252357) â€
 - Paper (PMC free full text): https://pmc.ncbi.nlm.nih.gov/articles/PMC10764024/
 - Original code + data repository: https://github.com/modeling-computation/covid-19_outbreak
 
+**Summary:** The authors build a "risk index" from South Korean public epidemiological data, then train
+three classical ML models (SVM, Random Forest, XGBoost) to classify COVID-19 transmission trend into
+three labels (decreasing / maintaining / increasing), using grid search for hyperparameter tuning. They
+report >94% classification accuracy and use the trend classification to detect outbreak start times
+(7 estimated vs. 5 officially reported outbreaks in Korea, March 2020â€“October 2022). A secondary result
+is a sensitivity analysis varying the outbreak "duration of maintenance" parameter from 7 to 28 days.
+
+
